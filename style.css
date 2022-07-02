@@ -1,0 +1,66 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+</style>
+
+body {
+    display: flex;
+    width: 1440px;
+    background: hsl(30, 38%, 92%);
+    justify-content: center;
+    align-items: center;
+}
+
+.preview {
+    flex-direction: row;
+    height: 50%;
+    flex-wrap: wrap;;
+}
+
+.perfumebottle {
+    max-width: 25%;
+}
+
+.textcontent {
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.header {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.herotext {
+    color: hsl(212, 21%, 14%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.descriptive {
+    font-size: 14px;
+    color: hsl(212, 21%, 14%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.prices {
+
+}
+
+.currentprice {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.previousprice {
+
+}
+
+.buy {
+
+}
+
+.attribution {
+    align-self: flex-end;
+}
